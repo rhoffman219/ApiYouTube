@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+    <div>
+
+        YouTube data API sample<br />
+        <br />
+    
+        Enter Video ID:
+        <asp:TextBox ID="aTextId" runat="server" Width="321px"></asp:TextBox>
+&nbsp;<asp:Button ID="aButtonGetData" runat="server" Text="Get YouTube data" />
+        <br />
+        <br />
+        <asp:Panel ID="Panel1" runat="server">
+            Video Title:
+            <asp:Label ID="aLabelTitle" runat="server"></asp:Label>
+            <br />
+            Video Published on: <asp:Label ID="aLabelPublishedDate" runat="server" Text=" "></asp:Label>            
+        </asp:Panel>
+        <br />
+       
+
+    </div>
+    </form>
+
+</body>
+</html>

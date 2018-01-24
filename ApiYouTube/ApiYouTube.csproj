@@ -9,7 +9,19 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Cogito.Web.UI" Version="2.0.0" />
+    <PackageReference Include="Google.Apis" Version="1.32.0" />
+    <PackageReference Include="Google.Apis.Auth" Version="1.32.0" />
+    <PackageReference Include="Google.Apis.Core" Version="1.32.0" />
+    <PackageReference Include="Google.Apis.YouTube.v3" Version="1.32.0.1079" />
+    <PackageReference Include="Google.GData.YouTube" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="youtube_client_secret.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
